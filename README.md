@@ -20,6 +20,7 @@ Grunt will concatenate and compile files as needed. Not automated is the svg wor
 ## Testing
 
 The `./test/` folder holds six tests in which we include different moduls and see the output. CSS and JS should only include the relevant moduls.
+Alternatively the tests are run by GitHup Pages [here](http://dominikwilkowski.github.io/GUI-POC/).
 
 ## Known issues
 
