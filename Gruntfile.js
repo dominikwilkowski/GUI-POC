@@ -306,8 +306,9 @@ module.exports = function(grunt) {
 	// Tasks breakdown
 	//------------------------------------------------------------------------------------------------------------------------------------------------------------
 	grunt.registerTask('build', [
-		'concat',
 		'multidest',
+		'concat',
+		'multidest:mixins',
 		'less',
 	]);
 

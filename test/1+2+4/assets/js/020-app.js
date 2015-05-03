@@ -16,7 +16,7 @@ var App = (function() {
 	return {
 		DEBUG: true, //debugging infos
 		SVGPATH: 'assets/img/svg-sprite.svg', //svg path
-		SVGREVISION: '10030', //svg revision
+		SVGREVISION: '10036', //svg revision
 
 
 		//----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ var App = (function() {
 			if( App.DEBUG ) console.log('%cDEBUGGING INFORMATION', 'font-size: 25px;');
 
 			//remove fallback HTML
-			$('html').removeClass('no-js');
+			$('html').removeClass('no-js').addClass('js');
 
 		},
 
@@ -58,5 +58,5 @@ var App = (function() {
 }());
 
 
-// run app
+//run app
 App.init();
