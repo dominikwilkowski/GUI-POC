@@ -16,7 +16,7 @@ var App = (function() {
 	return {
 		DEBUG: true, //debugging infos
 		SVGPATH: 'assets/img/svg-sprite.svg', //svg path
-		SVGREVISION: '10036', //svg revision
+		SVGREVISION: '10037', //svg revision
 
 
 		//----------------------------------------------------------------------------------------------------------------------------------------------------------
