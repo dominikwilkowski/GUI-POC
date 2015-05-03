@@ -1,0 +1,103 @@
+/*! Bank of Melbourne GUI --currentVersion--
+ */
+/*
+ * Module 1
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/*
+ * Module 2
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/*
+ * Module 3
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/*
+ * Module 4
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/*
+ * Module svg
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+
+/*
+ * Settings
+ *
+ * Uncomment or comment to enable or disable modules
+ *
+ */
+/*! Bank of Melbourne GUI --currentVersion--
+ */
+/*
+ * Module 1
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/*
+ * Module 2
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/*
+ * Module 3
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/*
+ * Module 4
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/*
+ * Module svg
+ *
+ * doc comment with stuff and stuff
+ *
+ */
+/* ---------------------------------------| Modules |--------------------------------------- */
+.module-1 {
+  background-color: pink;
+  padding: 21px;
+  overflow: hidden;
+}
+.module-1 .module-1-child {
+  background-color: yellow;
+  padding: 5%;
+  width: 40%;
+  float: left;
+}
+.module-4 {
+  width: 100%;
+  overflow: hidden;
+}
+.module-4 .module-4-box {
+  background-color: pink;
+  font-size: 100px;
+  text-align: center;
+  color: red;
+  padding: 50px;
+}
+.module-4 .module-4-input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.module-4 .module-4-input:checked + .module-4-box {
+  background-color: red;
+  color: pink;
+}
